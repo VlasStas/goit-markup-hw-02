@@ -242,14 +242,14 @@ footer a {
 .footer-link {
 	opacity: .6;
 }
-.footer-link:hover,
-.footer-link:focus {
+footer a:hover,
+footer a:focus {
 	color: var(--blue);
 }
 /* end footer */
 /* portfolio */
 .portfolio {
- background-color: #E5E5E5;
+ background-color: #fff;
  border-top: 1px solid #ECECEC;
  padding: 94px 0;
 }
@@ -285,11 +285,9 @@ footer a {
 	color: #FFFFFF;
 	transition: all	.4s;
 }
-.project-wrap {
+.projects {
 	width: 1170px;
 	margin: 0 auto;
-}
-.projects {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
