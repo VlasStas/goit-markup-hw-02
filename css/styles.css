@@ -10,6 +10,7 @@
 	--color-fon-crew: #F5F4FA;
 	--color-fon: #2F303A;
 	--color-button-hover: #2196F3;
+	--color-btn-portfolio: #F5F4FA;
 }
 body {
 	width: 100%;
@@ -281,7 +282,7 @@ body {
 .button {
 	padding: 6px 22px;
 	border: none;
-	background-color: #F5F4FA;
+	background-color: var(--color-btn-portfolio);
 	border-radius: 4px;
 	cursor: pointer;
 	font-weight: 500;
