@@ -9,6 +9,7 @@
 	--color-font-text: #757575;
 	--color-fon-crew: #F5F4FA;
 	--color-fon: #2F303A;
+	/* portfolio */
 	--color-button-hover: #2196F3;
 	--color-btn-portfolio: #F5F4FA;
 }
@@ -328,6 +329,5 @@ body {
 	font-size: 16px;
 	line-height: 1.87;
 	letter-spacing: 0.03em;
-	color: var(--color-font-text);
 	margin: 0 24px 20px;
 }
